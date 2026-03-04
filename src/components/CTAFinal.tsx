@@ -57,7 +57,7 @@ export default function CTAFinal() {
 
           {/* Subtitle */}
           <p className="text-hera-muted text-base sm:text-lg mb-10 max-w-xl mx-auto leading-relaxed">
-            Activa tu prueba en minutos y te guiamos para que lo tengas listo para operar.
+            Activa tu prueba, te contactamos para el onboarding 1:1, y en menos de 24 horas tu negocio opera con Hera. Sin instalaciones, sin permanencia.
           </p>
 
           {/* CTA */}
@@ -73,7 +73,7 @@ export default function CTAFinal() {
               />
             </a>
             <a
-              href={brandLinks.ctaContact}
+              href={`mailto:${brandLinks.ctaContact}`}
               className="inline-flex items-center gap-2 px-6 py-4 text-base font-medium text-hera-muted hover:text-hera-text border border-hera-border hover:border-[#9881D7]/40 rounded-xl transition-all duration-200"
             >
               Hablar con nosotros

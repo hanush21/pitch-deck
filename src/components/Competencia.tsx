@@ -84,8 +84,8 @@ export default function Competencia() {
             ¿Por qué Hera?
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 max-w-2xl mx-auto leading-tight">
-            Las grandes suites no están hechas{" "}
-            <span className="hera-gradient-text">para ti.</span>
+            Las grandes suites no están hechas{" "}para ti. 
+            <span className="hera-gradient-text">  Hera sí.</span>
           </h2>
           <p className="text-hera-muted max-w-xl mx-auto leading-relaxed">
             Salesforce, Odoo y Zoho son herramientas potentes, pero están diseñadas para empresas con equipos técnicos, presupuestos altos y meses de implementación. Hera es distinto.

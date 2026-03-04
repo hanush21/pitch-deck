@@ -1,27 +1,27 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Play, CheckCircle2, Zap, Users, FileText } from "lucide-react";
+import { ArrowRight, ExternalLink, CheckCircle2, Zap, Users, FileText } from "lucide-react";
 import DomeBackground from "./DomeBackground";
 import { brandLinks } from "@/config/brand";
 
 const bullets = [
   {
     icon: <CheckCircle2 size={16} />,
-    text: "Agenda sin huecos: citas claras, confirmaciones y recordatorios por email.",
+    text: "Reduce los no-shows hasta un 35% con recordatorios automáticos por email desde el día 1.",
   },
   {
     icon: <Users size={16} />,
-    text: "Equipo coordinado: empleados, departamentos y tareas en una vista simple.",
+    text: "Equipo sin fricción: empleados, departamentos y tareas en un panel, sin llamadas internas.",
   },
   {
     icon: <FileText size={16} />,
-    text: "Facturación con control: gestiona facturas y reduce trabajo repetitivo.",
+    text: "Facturas en minutos. Menos papel, menos errores, cobros más rápidos.",
   },
 ];
 
 const badges = [
-  { label: "MVP en producción", color: "text-[#9881D7] border-[#9881D7]/30 bg-[#9881D7]/10" },
+  { label: "1 año en producción", color: "text-[#9881D7] border-[#9881D7]/30 bg-[#9881D7]/10" },
   { label: "Módulos activos hoy", color: "text-[#E7C978] border-[#E7C978]/30 bg-[#E7C978]/10" },
   { label: "Hecho para servicios", color: "text-hera-muted border-hera-muted/20 bg-hera-muted/5" },
 ];
@@ -85,9 +85,7 @@ export default function Hero() {
               custom={2}
               variants={fadeUp}
             >
-              Diseñado para salones, barberías y servicios con volumen. Menos caos
-              operativo, más control diario. Empieza con una prueba y te acompañamos
-              en el onboarding.
+              Cada cita sin confirmar es un hueco vacío. Cada WhatsApp sin responder es un cliente que se va. Hera pone orden en la operación diaria para que dejes de correr y empieces a crecer.
             </motion.p>
 
             {/* Bullets */}
@@ -122,13 +120,13 @@ export default function Hero() {
                 <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
               </a>
               <a
-                href={brandLinks.ctaDemo}
+                href={brandLinks.siteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-medium text-hera-text border border-hera-border rounded-xl hover:border-[#9881D7]/50 hover:bg-[#9881D7]/10 transition-all duration-200 group"
               >
-                <span className="w-7 h-7 rounded-full bg-[#9881D7]/20 flex items-center justify-center group-hover:bg-[#9881D7]/30 transition-all">
-                  <Play size={11} className="text-[#9881D7] ml-0.5" />
-                </span>
-                Ver demo
+                Visitar heradome.com
+                <ExternalLink size={14} className="text-hera-muted/60 group-hover:text-[#9881D7] transition-colors" />
               </a>
             </motion.div>
           </div>

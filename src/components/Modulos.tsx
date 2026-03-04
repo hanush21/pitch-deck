@@ -415,12 +415,6 @@ export default function Modulos() {
           >
             Probar gratis <ArrowRight size={15} />
           </a>
-          <a
-            href={brandLinks.ctaDemo}
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium text-[#9881D7] border border-[#9881D7]/40 rounded-xl hover:bg-[#9881D7]/8 transition-all"
-          >
-            Ver demo
-          </a>
         </motion.div>
       </div>
     </section>

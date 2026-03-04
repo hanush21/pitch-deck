@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: "https://heradome.com",
-    images: [{ url: "https://heradome.com/og-image.png" }],
+    images: [{ url: "https://heradome.com/images/og-image.png", width: 1200, height: 630, alt: "Hera CRM – Gestión de citas, equipo y facturas" }],
     siteName: "Heradome",
   },
   twitter: {
@@ -24,13 +24,15 @@ export const metadata: Metadata = {
     title: "Hera CRM – Ordena tu negocio de citas",
     description:
       "Clientes, equipo y facturas en un solo panel. Pruébalo gratis.",
+    images: ["https://heradome.com/images/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/ico.svg",
+    apple: "/ico.svg",
   },
 };
 

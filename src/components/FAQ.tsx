@@ -8,51 +8,59 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "¿Por qué pedís tarjeta para la prueba?",
-    a: "Pedimos tarjeta para activar el onboarding real y evitar registros spam. No se cobra nada hasta que finalice el período de prueba. Puedes cancelar antes sin coste.",
+    a: "La pedimos para activar la cuenta real y evitar registros falsos que nos quitan tiempo de soporte. Puedes cancelar antes de que termine la prueba y no se te cobrará nada.",
   },
   {
     q: "¿Cuánto tardamos en empezar a operar?",
-    a: "En la mayoría de casos, menos de un día. El onboarding incluido está diseñado para que configures lo esencial (clientes, citas, equipo) en pocas horas.",
+    a: "En la mayoría de casos, puedes empezar el mismo día. Con el onboarding 1:1 normalmente lo dejamos listo en 24–72 horas, según lo que haya que configurar.",
   },
   {
-    q: "¿Me ayudáis a configurarlo (onboarding)?",
-    a: "Sí. Todos los planes incluyen onboarding. Te acompañamos para que no tengas que descubrir nada solo. Si necesitas configuración prioritaria, el plan Business lo incluye.",
+    q: "¿Me ayudáis a configurarlo?",
+    a: "Sí. Incluimos onboarding 1:1 en todos los planes para dejar agenda, equipo y estructura funcionando contigo.",
   },
   {
     q: "¿Sirve si somos solo 1–2 personas?",
-    a: "Perfecto para eso. El plan Básico está diseñado para autónomos y micro-equipos. Tienes clientes, citas, tareas y facturas sin pagar por lo que no usas.",
+    a: "Sí. El plan Básico está pensado para autónomos y microequipos: agenda, clientes, tareas y facturas sin complicarte.",
   },
   {
     q: "¿Y si somos una pyme con equipo?",
-    a: "Los planes Pro y Business incluyen empleados, departamentos y configuración avanzada. Hera escala contigo sin que tengas que cambiar de herramienta.",
+    a: "Sí. Cuando hay varias personas, tiene sentido usar Empleados/Departamentos y organizar roles y carga diaria. Te ayudamos a adaptarlo a vuestro flujo.",
   },
   {
     q: "¿Mis datos están seguros?",
-    a: "Sí. Aplicamos cifrado y compresión desde backend. Los accesos están controlados por organización con roles y permisos. No es una feature cosmética, está en la arquitectura.",
+    a: "Sí, tratamos los datos como algo crítico y aplicamos medidas de seguridad a nivel de acceso y protección de información. Aun así, estamos en fase early y seguimos reforzando continuamente la plataforma.",
   },
   {
     q: "¿Puedo cancelar cuando quiera?",
-    a: "Completamente libre. Sin permanencia, sin llamadas de retención, sin letra pequeña. Cancelas desde tu panel en cualquier momento.",
+    a: "Sí. No hay permanencia: puedes cancelar cuando quieras desde tu cuenta o pidiéndonoslo, y no renovamos el siguiente ciclo.",
   },
   {
     q: "¿Qué incluye exactamente el plan Básico?",
-    a: "Clientes, Citas, Tareas, Facturas y soporte por email. Todo lo que necesitas para arrancar con operación ordenada antes de escalar.",
+    a: "Incluye Agenda de citas, Clientes, Tareas y Facturas, con onboarding 1:1 incluido. Es la base para operar el día a día con orden.",
   },
   {
     q: "¿Hay diferencia entre Pro y Business?",
-    a: "Pro añade Empleados, Departamentos, Chatbot y notificaciones. Business incluye todo eso más configuración avanzada y onboarding prioritario para negocios con más carga.",
+    a: "Sí. Pro está pensado para salones con volumen y añade gestión de equipo/estructura y automatización. Business está orientado a equipos más exigentes e incluye configuración y soporte más prioritarios.",
   },
   {
     q: "¿Puedo exportar mis datos si me voy?",
-    a: "Sí. Tus datos son tuyos. Puedes exportarlos en cualquier momento desde el panel.",
+    a: "Sí. Si decides irte, te facilitamos la exportación de tus datos para que no quedes bloqueado.",
   },
   {
     q: "¿Funcionan las notificaciones por email desde el día 1?",
-    a: "Sí. Los recordatorios y confirmaciones por email están integrados y funcionan desde que activas la prueba.",
+    a: "Sí. Las notificaciones por email funcionan desde el primer día y las dejamos configuradas contigo durante el onboarding.",
   },
   {
     q: "¿Hay planes para varios centros o sedes?",
-    a: "Multi-sede está en el roadmap (Later, 12–24 meses). Hoy, Enterprise puede cubrir casos especiales. Habla con nosotros si lo necesitas pronto.",
+    a: "Sí. Podemos plantearlo como un setup por centro/organización y ayudarte a estructurarlo según vuestro caso. Si necesitas multi-sede avanzado, lo vemos contigo en una llamada.",
+  },
+  {
+    q: "¿Qué pasa si el chatbot no entiende al cliente?",
+    a: "No pasa nada: el chatbot está para ayudar, no para bloquear. Si no entiende, deriva a una persona o deja la conversación lista para que tu equipo responda.",
+  },
+  {
+    q: "¿Necesito instalar algo o es todo en el navegador?",
+    a: "Todo en el navegador. No hay nada que instalar ni actualizar. Accedes desde cualquier dispositivo con tu cuenta y listo.",
   },
 ];
 

@@ -7,11 +7,13 @@ import LogoIcon from "./LogoIcon";
 const footerLinks = {
   Producto: [
     { label: "Módulos", href: "#producto" },
-    { label: "Casos de uso", href: "#casos" },
+    { label: "¿Por qué Hera?", href: "#competencia" },
+    { label: "Cómo empezar", href: "#como-funciona" },
     { label: "Precios", href: "#precios" },
     { label: "Roadmap", href: "#roadmap" },
   ],
   Empresa: [
+    { label: "Testimonios", href: "#testimonios" },
     { label: "FAQ", href: "#faq" },
     { label: "Contacto", href: `mailto:${brandLinks.email}` },
     { label: "Iniciar sesión", href: brandLinks.ctaLogin },

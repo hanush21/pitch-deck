@@ -4,8 +4,10 @@ import Problema from "@/components/Problema";
 import Solucion from "@/components/Solucion";
 import Modulos from "@/components/Modulos";
 import CasosDeUso from "@/components/CasosDeUso";
+import ComoFunciona from "@/components/ComoFunciona";
 import Competencia from "@/components/Competencia";
 import EraIA from "@/components/EraIA";
+import Testimonios from "@/components/Testimonios";
 import Confianza from "@/components/Confianza";
 import Roadmap from "@/components/Roadmap";
 import Traccion from "@/components/Traccion";
@@ -21,10 +23,12 @@ export default function Home() {
       <Hero />
       <Problema />
       <Solucion />
+      <ComoFunciona />
       <Modulos />
       <CasosDeUso />
       <Competencia />
       <EraIA />
+      <Testimonios />
       <Confianza />
       <Roadmap />
       <Traccion />

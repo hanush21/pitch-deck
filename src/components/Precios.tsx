@@ -37,8 +37,11 @@ export default function Precios() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
             Precios claros para <span className="hera-gradient-text">crecer con control.</span>
           </h2>
-          <p className="text-hera-muted max-w-md mx-auto">
+          <p className="text-hera-muted max-w-md mx-auto mb-4">
             Empieza por lo esencial. Escala cuando tu operación lo pida.
+          </p>
+          <p className="text-sm text-hera-muted/60 max-w-sm mx-auto">
+            Una sola cita recuperada al mes cubre el coste del plan. Un no-show evitado ya lo paga.
           </p>
         </motion.div>
 

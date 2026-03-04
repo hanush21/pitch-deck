@@ -8,7 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { label: "Producto", href: "#producto" },
-  { label: "Casos de uso", href: "#casos" },
+  { label: "¿Por qué Hera?", href: "#competencia" },
   { label: "Roadmap", href: "#roadmap" },
   { label: "Precios", href: "#precios" },
   { label: "FAQ", href: "#faq" },
@@ -69,12 +69,6 @@ export default function Header() {
                 Iniciar sesión
               </a>
               <a
-                href={brandLinks.ctaDemo}
-                className="px-4 py-2 text-sm font-medium text-[#9881D7] border border-[#9881D7]/40 rounded-lg hover:border-[#9881D7] hover:bg-[#9881D7]/10 transition-all duration-200"
-              >
-                Ver demo
-              </a>
-              <a
                 href={brandLinks.ctaPrimary}
                 className="px-4 py-2 text-sm font-semibold text-white bg-[#9881D7] rounded-lg hover:bg-[#B49AE8] shadow-lg shadow-[#9881D7]/20 hover:shadow-[#9881D7]/40 transition-all duration-200"
               >
@@ -124,13 +118,6 @@ export default function Header() {
                   className="block px-3 py-2 text-hera-muted text-sm text-center"
                 >
                   Iniciar sesión
-                </a>
-                <a
-                  href={brandLinks.ctaDemo}
-                  onClick={() => setMenuOpen(false)}
-                  className="block px-4 py-2.5 text-sm font-medium text-[#9881D7] border border-[#9881D7]/40 rounded-lg text-center hover:bg-[#9881D7]/10 transition-all"
-                >
-                  Ver demo
                 </a>
                 <a
                   href={brandLinks.ctaPrimary}

@@ -7,16 +7,16 @@ import { AlertCircle, ArrowRight } from "lucide-react";
 
 const pains = [
   {
-    before: "Reagendar es un lío",
-    after: "aparecen huecos y dobles reservas.",
+    before: "1 de cada 5 citas no llega",
+    after: "WhatsApp y papel no confirman ni recuerdan a tiempo.",
   },
   {
-    before: "El equipo no comparte contexto",
-    after: "el cliente repite lo mismo.",
+    before: "El equipo actúa sin información",
+    after: "el siguiente estilista no sabe qué se hizo antes.",
   },
   {
-    before: "La facturación se retrasa",
-    after: "cobros lentos y errores.",
+    before: "Las facturas se acumulan",
+    after: "cobros lentos, errores y clientes que hay que perseguir.",
   },
 ];
 
@@ -57,9 +57,7 @@ export default function Problema() {
             </h2>
 
             <p className="text-hera-muted leading-relaxed mb-6">
-              En negocios con muchas citas y clientes, lo típico es sobrevivir con
-              WhatsApp, notas y herramientas sueltas. El resultado: olvidos, cambios
-              perdidos y tiempo administrativo que se come el margen.
+              Entre el 18 y el 22% de las citas en salones sin gestión activa terminan en no-show. El tiempo que se pierde en reagendas manuales, WhatsApp y Excel no va al cliente — va al caos.
             </p>
 
             <div className="inline-flex items-center gap-2 text-sm font-medium text-[#9881D7] mt-2">
